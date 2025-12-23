@@ -977,10 +977,4 @@ jobs:
       with:
         name: UpdatedScarletRepo
         path: ScarletRepo.json
-
-- name: Upload IPA
-  uses: actions/upload-artifact@v4
-  with:
-    name: SpotC-Plus-Plus-IPA
-    path: |
-      **/*.ipa
+        
