@@ -978,7 +978,6 @@ jobs:
         name: UpdatedScarletRepo
         path: ScarletRepo.json
 
-
 - name: Upload IPA
   uses: actions/upload-artifact@v4
   with:
